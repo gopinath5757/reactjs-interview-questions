@@ -592,6 +592,8 @@ Hide/Show table of contents
 
 7.  ### When to use a Class Component over a Function Component?
 
+Table comparision link -> https://medium.com/@supraja_miryala/functional-components-vs-class-components-in-react-e2b8aec3ed64
+
     After the addition of Hooks(i.e. React 16.8 onwards) it is always recommended to use Function components over Class components in React. Because you could use state, lifecycle methods and other features that were only available in class component present in function component too.
 
     But even there are two reasons to use Class components over Function components.
