@@ -59,12 +59,12 @@ Hide/Show table of contents
 | 3   | [What are the major features of React?](#what-are-the-major-features-of-react)                                                                                                                                                   |
 | 4   | [What is JSX?](#what-is-jsx)                                                                                                                                                                                                     |
 | 5   | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component)                                                                                                                   |
-| 6   | [How to create components in React?](#how-to-create-components-in-react)                                                                                                                                                         |
-| 7   | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component)                                                                                                             |
-| 8   | [What are Pure Components?](#what-are-pure-components)                                                                                                                                                                           |
-| 9   | [What is state in React?](#what-is-state-in-react)                                                                                                                                                                               |
-| 10  | [What are props in React?](#what-are-props-in-react)                                                                                                                                                                             |
-| 11  | [What is the difference between state and props?](#what-is-the-difference-between-state-and-props)                                                                                                                               |
+| 6*   | [How to create components in React?](#how-to-create-components-in-react)                                                                                                                                                         |
+| 7*   | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component)                                                                                                             |
+| 8*   | [What are Pure Components?](#what-are-pure-components)                                                                                                                                                                           |
+| 9*   | [What is state in React?](#what-is-state-in-react)                                                                                                                                                                               |
+| 10*  | [What are props in React?](#what-are-props-in-react)                                                                                                                                                                             |
+| 11*  | [What is the difference between state and props?](#what-is-the-difference-between-state-and-props)                                                                                                                               |
 | 12  | [What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling)                                                                                                   |
 | 13  | [What are synthetic events in React?](#what-are-synthetic-events-in-react)                                                                                                                                                       |
 | 14  | [What are inline conditional expressions?](#what-are-inline-conditional-expressions)                                                                                                                                             |
@@ -566,7 +566,7 @@ Hide/Show table of contents
 
     **[⬆ Back to Top](#table-of-contents)**
 
-6.  ### How to create components in React?
+6.*  ### How to create components in React?
 
     Components are the building blocks of creating User Interfaces(UI) in React. There are two possible ways to create a component.
 
@@ -590,7 +590,7 @@ Hide/Show table of contents
 
     **[⬆ Back to Top](#table-of-contents)**
 
-7.  ### When to use a Class Component over a Function Component?
+7.*  ### When to use a Class Component over a Function Component?
 
 Table comparision link -> https://medium.com/@supraja_miryala/functional-components-vs-class-components-in-react-e2b8aec3ed64
 
@@ -631,7 +631,7 @@ Table comparision link -> https://medium.com/@supraja_miryala/functional-compone
 
     **[⬆ Back to Top](#table-of-contents)**
 
-8.  ### What are Pure Components?
+8.*  ### What are Pure Components?
 
     Pure components are the components which render the same output for the same state and props. In function components, you can achieve these pure components through memoized `React.memo()` API wrapping around the component. This API prevents unnecessary re-renders by comparing the previous props and new props using shallow comparison. So it will be helpful for performance optimizations.
 
@@ -684,7 +684,7 @@ Table comparision link -> https://medium.com/@supraja_miryala/functional-compone
 
     **[⬆ Back to Top](#table-of-contents)**
 
-9.  ### What is state in React?
+9.*  ### What is state in React?
 
     _State_ of a component is an object that holds some information that may change over the lifetime of the component. The important point is whenever the state object changes, the component re-renders. It is always recommended to make our state as simple as possible and minimize the number of stateful components.
 
@@ -739,7 +739,7 @@ Table comparision link -> https://medium.com/@supraja_miryala/functional-compone
 
     **[⬆ Back to Top](#table-of-contents)**
 
-10. ### What are props in React?
+10.* ### What are props in React?
 
     _Props_ are inputs to components. They are single values or objects containing a set of values that are passed to components on creation similar to HTML-tag attributes. Here, the data is passed down from a parent component to a child component.
 
@@ -838,7 +838,7 @@ class ParentComponent extends React.Component {
 
 **[⬆ Back to Top](#table-of-contents)**
 
-11. ### What is the difference between state and props?
+11.* ### What is the difference between state and props?
 
     In React, both `state` and `props` are plain JavaScript objects and used to manage the data of a component, but they are used in different ways and have different characteristics.
 
